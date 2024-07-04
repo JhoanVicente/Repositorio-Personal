@@ -1,6 +1,6 @@
 CREATE DATABASE defaultdb
 
-USE defauldb
+USE defaultdb
 
 CREATE TABLE Proveedores (
     ID_Proveedor INT PRIMARY KEY,
