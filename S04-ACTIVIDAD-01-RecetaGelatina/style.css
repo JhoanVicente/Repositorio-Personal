@@ -1,0 +1,128 @@
+/* Estilo general del cuerpo */
+body {
+  font-family: Arial, sans-serif; /* Fuente principal del texto, Arial o sans-serif como respaldo */
+  line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+  margin: 0; /* Elimina el margen predeterminado del navegador */
+  padding: 0; /* Elimina el relleno predeterminado del navegador */
+  background-color: #f4f4f4; /* Color de fondo de la página */
+  color: #333; /* Color del texto principal */
+}
+
+/* Encabezado */
+header {
+  background-color: #000000; /* Color de fondo del encabezado */
+  color: #fff; /* Color del texto en el encabezado */
+  padding: 20px 0; /* Relleno arriba y abajo del encabezado */
+  text-align: center; /* Centra el texto en el encabezado */
+}
+
+header h1 {
+  margin: 0; /* Elimina el margen predeterminado del título del encabezado */
+}
+
+/* Navegación */
+nav ul {
+  list-style: none; /* Elimina los puntos de lista predeterminados */
+  padding: 0; /* Elimina el relleno predeterminado */
+}
+
+nav ul li {
+  display: inline; /* Muestra los elementos de lista en línea, uno al lado del otro */
+  margin: 0 10px; /* Espacio horizontal entre los elementos de la lista */
+}
+
+nav ul li a {
+  color: #fff; /* Color del texto del enlace en la navegación */
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+  font-weight: bold; /* Hace el texto del enlace en negrita */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Subraya el texto del enlace cuando se pasa el ratón por encima */
+}
+
+/* Secciones */
+section {
+  padding: 20px; /* Relleno interno de las secciones */
+  margin: 10px auto; /* Espacio arriba y abajo de las secciones, centradas horizontalmente */
+  max-width: 800px; /* Ancho máximo de las secciones */
+  background-color: #fff; /* Color de fondo de las secciones */
+  border-radius: 5px; /* Bordes redondeados de las secciones */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor de las secciones */
+}
+
+/* Encabezados de sección */
+section h2 {
+  color: #000000; /* Color del texto de los encabezados de sección */
+  margin-top: 0; /* Elimina el margen superior predeterminado de los encabezados */
+}
+
+/* Lista de ingredientes y preparación */
+ul, ol {
+  margin: 10px 0; /* Espacio arriba y abajo de las listas */
+  padding-left: 20px; /* Relleno a la izquierda para sangrar las listas */
+}
+
+/* Formulario de contacto */
+form {
+  display: flex; /* Usa un diseño flexible para el formulario */
+  flex-direction: column; /* Organiza los elementos del formulario en una columna */
+}
+
+form label {
+  margin-top: 10px; /* Espacio arriba de las etiquetas del formulario */
+}
+
+form input, form textarea {
+  padding: 10px; /* Relleno interno de los campos de entrada y área de texto */
+  margin-top: 5px; /* Espacio arriba de los campos de entrada y área de texto */
+  border: 1px solid #ccc; /* Borde de los campos de entrada y área de texto */
+  border-radius: 5px; /* Bordes redondeados de los campos de entrada y área de texto */
+  width: 100%; /* Hace que los campos de entrada y área de texto ocupen el ancho completo del contenedor */
+}
+
+form button {
+  margin-top: 15px; /* Espacio arriba del botón del formulario */
+  padding: 10px; /* Relleno interno del botón */
+  background-color: #000000; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Elimina el borde predeterminado del botón */
+  border-radius: 5px; /* Bordes redondeados del botón */
+  cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+}
+
+form button:hover {
+  background-color: #000000; /* Mantiene el color de fondo del botón igual cuando se pasa el ratón por encima */
+}
+
+/* Footer */
+footer {
+  background-color: #000000; /* Color de fondo del pie de página */
+  color: #ffffff; /* Color del texto en el pie de página */
+  text-align: center; /* Centra el texto en el pie de página */
+  padding: 20px 0; /* Relleno arriba y abajo del pie de página */
+  margin-top: 20px; /* Espacio arriba del pie de página */
+}
+
+footer p {
+  margin: 5px 0; /* Espacio arriba y abajo de los párrafos en el pie de página */
+}
+
+footer ul {
+  list-style: none; /* Elimina los puntos de lista predeterminados */
+  padding: 0; /* Elimina el relleno predeterminado */
+}
+
+footer ul li {
+  display: inline; /* Muestra los elementos de lista en línea, uno al lado del otro */
+  margin: 0 10px; /* Espacio horizontal entre los elementos de la lista en el pie de página */
+}
+
+footer ul li a {
+  color: #fff; /* Color del texto del enlace en el pie de página */
+  text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+}
+
+footer ul li a:hover {
+  text-decoration: underline; /* Subraya el texto del enlace cuando se pasa el ratón por encima */
+}

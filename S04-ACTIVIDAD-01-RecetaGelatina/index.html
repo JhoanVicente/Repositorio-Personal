@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Declaración del tipo de documento, importante para que los navegadores interpreten correctamente el HTML -->
+    <meta charset="UTF-8">
+    <!-- Establece la codificación de caracteres para la página como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura la visualización en dispositivos móviles para que sea adaptable al tamaño de la pantalla -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Asegura la compatibilidad con Internet Explorer -->
+    <title>Receta de Gelatina</title>
+    <!-- Título de la página que aparecerá en la pestaña del navegador -->
+    <meta name="description" content="Receta de gelatina.">
+    <!-- Descripción de la página, útil para SEO y motores de búsqueda -->
+    <meta name="author" content="Jhoan Vicente">
+    <!-- Autor de la página -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Vincula la hoja de estilos externa llamada "style.css" para aplicar estilos a la página -->
+</head>
+<body>
+    <!-- Cuerpo del documento HTML donde se coloca el contenido visible de la página -->
+    <header>
+        <!-- Sección de encabezado, generalmente contiene el título y la navegación -->
+        <h1>Receta de Gelatina</h1>
+        <!-- Título principal de la página -->
+        <nav>
+            <!-- Menú de navegación -->
+            <ul>
+                <!-- Lista de enlaces de navegación -->
+                <li><a href="#inicio">Inicio</a></li>
+                <!-- Enlace que lleva a la sección "inicio" de la página -->
+                <li><a href="#ingredientes">Ingredientes</a></li>
+                <!-- Enlace que lleva a la sección "ingredientes" de la página -->
+                <li><a href="#preparacion">Preparación</a></li>
+                <!-- Enlace que lleva a la sección "preparación" de la página -->
+                <li><a href="#video">Video</a></li>
+                <!-- Enlace que lleva a la sección "video" de la página -->
+                <li><a href="#contacto">Contacto</a></li>
+                <!-- Enlace que lleva a la sección "contacto" de la página -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contenido principal de la página -->
+        <section id="inicio">
+            <!-- Sección de bienvenida con un resumen de la receta -->
+            <h2>Bienvenido a la Receta de Gelatina</h2>
+            <p>Aprende a preparar una deliciosa gelatina con esta receta fácil de seguir.</p>
+            <!-- Texto descriptivo -->
+        </section>
+
+        <section id="ingredientes">
+            <!-- Sección que enumera los ingredientes necesarios para la receta -->
+            <h2>Ingredientes</h2>
+            <ul>
+                <!-- Lista de ingredientes -->
+                <li>1 sobre de gelatina en polvo (sabor a tu elección)</li>
+                <li>1 litro de agua</li>
+                <li>Frutas frescas (opcional)</li>
+            </ul>
+        </section>
+
+        <section id="preparacion">
+            <!-- Sección que describe los pasos para preparar la gelatina -->
+            <h2>Preparación</h2>
+            <ol>
+                <!-- Lista ordenada de pasos para la preparación -->
+                <li>Calienta 500 ml de agua en una olla hasta que hierva.</li>
+                <li>Agrega el sobre de gelatina en polvo y mezcla bien hasta que se disuelva completamente.</li>
+                <li>Retira del fuego y agrega los otros 500 ml de agua fría. Mezcla bien.</li>
+                <li>Si deseas, agrega frutas frescas cortadas en trozos pequeños.</li>
+                <li>Vierte la mezcla en moldes o un recipiente grande.</li>
+                <li>Refrigera por al menos 4 horas o hasta que la gelatina esté firme.</li>
+                <li>Saca del refrigerador y disfruta de tu gelatina casera.</li>
+            </ol>
+        </section>
+
+        <section id="video">
+            <!-- Sección que incluye un video de YouTube para mostrar un tutorial -->
+            <h2>Video Tutorial: Como Preparar Gelatina</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KtjFwuRnBek?si=wwREJMGbNa4MmWhK" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <!-- Iframe para incrustar el video en la página -->
+        </section>
+
+        <section id="contacto">
+            <!-- Sección que incluye un formulario de contacto -->
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <!-- Formulario para enviar nombre, email y mensaje -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <!-- Campo de texto para el nombre del usuario -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <!-- Campo de texto para el correo electrónico del usuario -->
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <!-- Área de texto para el mensaje del usuario -->
+                <button type="submit">Enviar</button>
+                <!-- Botón para enviar el formulario -->
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Pie de página con derechos de autor y enlaces a redes sociales -->
+        <p>&copy; 2024 Recetas Fáciles. Todos los derechos reservados.</p>
+        <p>Visítanos en nuestras redes sociales: Jhoan Vicente</p>
+        <ul>
+            <!-- Lista de enlaces a redes sociales -->
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
